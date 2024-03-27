@@ -19,7 +19,7 @@ const CategoryProductPage = ({ params }) => {
       });
       setProductShow(productCatchCategory);
     }
-  }, []);
+  }, [categoricsName, products]);
 
   return (
     <>

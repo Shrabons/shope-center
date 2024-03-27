@@ -14,7 +14,7 @@ export default function Error({ error, rest }) {
     <div className="bg-[#344B5F] w-full h-screen flex justify-center items-center flex-col">
       <h1 className="text-4xl text-white font-semibold my-4">
         {" "}
-        Something's wrong here...{" "}
+        Somethings wrong here...{" "}
       </h1>
       <h2 className="text-yellow-500 text-xl mb-3">{error?.message}</h2>
       <div>
