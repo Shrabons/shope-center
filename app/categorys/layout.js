@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer";
 import Loading from "@/components/Loading";
 import LoginUp from "@/components/LoginUp";
 import Sidebar from "@/components/category/Sidebar";
@@ -26,7 +25,6 @@ const CategoryLayout = ({ children }) => {
         </section>
         <LoginUp />
       </main>
-      <Footer />
     </>
   );
 };
