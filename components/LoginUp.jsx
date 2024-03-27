@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const LoginUp = () => {
   return (
     <section className="bg-[#ced3ca] py-5 lg:py-16">
